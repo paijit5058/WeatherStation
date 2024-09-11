@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Station</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Weather Data</h2>
+                <div class="button">
+                    <a href="index.html"><button type="button">Home</button></a>
+                    <a href="hourly.html"><button type="button">Hourly Weather</button></a>
+                    <a href="daily.html"><button type="button">Daily Weather</button></a>
+                    <a href="graph.html"><button type="button">Weather Graph</button></a>
+                    <a href="noti.html"><button type="button"><img src="bell.png" width="15px"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="weather-data">
+                <div class="card">
+                    <div class="current-weather">
+                        <div class="details">
+                            <p>Now</p>
+                            <h2>27&deg;C</h2>
+                            <p>08 Sep 24</p>
+                        </div>
+                        <div class="weather-icon">
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png"
+                            alt="">
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>Humidity</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="drop.png" width="50px">
+                        <h2 id="humidityval">86 %</h2>
+                    </diV>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>Pressure</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="pressure.png" width="50px">
+                        <h2 id="Pressureval">1006 hPa</h2>
+                    </diV>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>Wind speed</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="windy.png" width="50px">
+                        <h2 id="windsp">7 km/hr</h2>
+                    </diV>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>Wind direction</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="direction.png" width="50px">
+                        <h2 id="winddrt">South</h2>
+                    </diV>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>Rainfall</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="water.png" width="50px">
+                        <h2 id="rain">0 mm</h2>
+                    </diV>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                        <p>PM2.5</p>
+                    </div>
+                    <diV class="card-item">
+                        <img src="dust.png" width="50px">
+                        <h2 id="dust">18 µg./m3</h2>
+                    </diV>
+                </div>
+        </div>
+    </body>
+</html>

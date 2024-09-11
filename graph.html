@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Station</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="graph.css">
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Weather Graph</h2>
+                <div class="button">
+                    <a href="index.html"><button type="button">Home</button></a>
+                    <a href="hourly.html"><button type="button">Hourly Weather</button></a>
+                    <a href="daily.html"><button type="button" >Daily Weather</button></a>
+                    <a href="graph.html"><button type="button">Weather Graph</button></a>
+                    <a href="noti.html"><button type="button"><img src="bell.png" width="15px"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="temperatureChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="humidityChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="pressureChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="windSpeedChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="windDirectionChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="rainfallChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="pm25Chart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="graph.js"></script>
+    </body>
+</html>

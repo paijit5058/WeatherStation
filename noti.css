@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-x: auto;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    color: rgb(61, 60, 60);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+.button {
+    display: flex;
+    gap: 10px; 
+}
+button{
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.notification-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(34, 34, 34);
+}
+.tp{
+    font-weight: bold;
+}
+.notification {
+    background-color: rgb(96, 128, 147);
+    border: 1px;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+.notification h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.notification p.timestamp {
+    color: #ffffff;
+    font-size: 13px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Station</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="noti.css">
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Notifications</h2>
+                <div class="button">
+                    <a href="index.html"><button type="button">Home</button></a>
+                    <a href="hourly.html"><button type="button">Hourly Weather</button></a>
+                    <a href="daily.html"><button type="button">Daily Weather</button></a>
+                    <a href="graph.html"><button type="button">Weather Graph</button></a>
+                    <a href="noti.html"><button type="button"><img src="bell.png" width="15px"></button></a>
+                </div>
+            </div>
+            <div class="notification-container">
+                <div class="notification">
+                    <h3><img src="noti.png" width="30px"></h3>
+                    <p class="tp">!! Your sensor is malfunctioning. Please check it.</p>
+                    <p class="timestamp">Date: 01 Jan 2024 <span id="date"></span> Time: 15:34pm<span id="time"></span></p>
+                </div>
+            </div>
+            <div class="notification-container">
+                <div class="notification">
+                    <h3><img src="noti.png" width="30px"></h3>
+                    <p class="tp">!! The weather today has more dust than usual.</p>
+                    <p class="timestamp">Date: 01 Jan 2024 <span id="date"></span> Time: 20:02pm<span id="time"></span></p>
+                </div>
+            </div>
+    </body>
+</html>
